@@ -15,7 +15,7 @@ class LandingAPI(APIView):
     name = 'Landing API'
 
     # Coloque el nombre de su colección en el Realtime Database
-    collection_name = 'coleccion'
+    collection_name = 'data'
 
     def get(self, request):
 
